@@ -1,89 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+
+        }
+
+        table {
+            border-spacing: 0px;
+
+        }
+    </style>
 </head>
-<body style="display: flex;flex-direction: column;;border: 2px black solid;padding: 10px; width: 1100px; border-radius: 20px;">
-    <div></div>
-    <div>
-        <h4>Marks Obtained:</h4></div>
-    <div>
-        <table style="border: 2px black solid;font-size: 20px; border-radius: 10px;">
-            <tr>
-            <td style="border: 2px black solid;"> </td>
-            <td style="border: 2px black solid;">10^th</td>
-            <td style="border: 2px black solid;">INTERMEDIATE</td>
-            <td style="border: 2px black solid;">GRADUATION</td>
-        </tr>
-        <tr>
-            <td style="border: 2px black solid;">English</td>
-            <td style="border: 2px black solid;"></td>
-            <td style="border: 2px black solid;"></td>
-            <td style="border: 2px black solid;"></td>
-        </tr>
-        <tr>
-            <td style="border: 2px black solid;">Mathematics</td>
-            <td style="border: 2px black solid;"></td>
-            <td style="border: 2px black solid;"></td>
-            <td style="border: 2px black solid;"></td>
-        </tr>
-        <tr>
-            <td style="border: 2px black solid;">Specialization</td>
-            <td style="border: 2px black solid;"></td>
-            <td style="border: 2px black solid;"></td>
-            <td style="border: 2px black solid;"></td>
-        </tr>
-        </table>
-    </div>
-    <div>
-        <h4>Courses Offered:</h4>
-    </div>
-    <div>
-        <table style="border: 2px black solid;font-size: 10px; border-radius: 10px;">
-            <tr>
-            <td style="border: 2px black solid;text-align: center;">Course</td>
-            <td style="border: 2px black solid;text-align: center;">Duration</td>
-            <td style="border: 2px black solid;text-align: center;">Timings</td>
-        </tr>
-        <tr>
-            <td style="border: 2px black solid;padding: 10px;">Jr.Software Engineer (Specification in Cloud Computation)</td>
-            <td style="border: 2px black solid;"></td>
-            <td style="border: 2px black solid;">Monday-Friday</td>
-        </tr>
-        <tr >
-            <td style="border: 2px black solid;"></td>
-            <td style="border: 2px black solid;"></td>
-            <td style="border: 2px black solid;"></td>        </tr>
-        <tr>
-            <td style="border: 2px black solid;"></td>
-            <td style="border: 2px black solid;"></td>
-            <td style="border: 2px black solid;"></td>
-        </tr>
-        </table>
-    </div>
 
-    <div>
-        <h4>Declaration br the Applicant</h4>
-        <p>1.I understand to abide by the rules regulation of the coding School in respect of academics, cocurricular activities in the propectus.</p>
-        <p>2.In the event of any of indiscipline on my part, the decision of the management shall be the final and binding on me</p>
-    </div>
+<body style="display: flex;flex-direction: column;align-items: center;">
+    <div style="display: flex;flex-direction: column;border: 2px black solid;padding: 10px; width: 800px; border-radius: 20px; padding-left: 50px;"">
+        <div>
+            <h4>Marks Obtained:</h4>
+            <table style="width:70%">
+                <tr>
+                    <th></th>
+                    <th>10<sup>th</sup></th>
+                    <th>INTERMEDIATE</th>
+                    <th>GRADUATION</th>
+                </tr>
+                <tr>
+                    <td>English</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Mathematics</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Specialization</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <h4 style="padding-left: 10px;">Courses Offered:</h4>
+            <table style="width:70%">
+                <tr>
+                    <th>Course</th>
+                    <th>Duration</th>
+                    <th>Timmings</th>
+                </tr>
+                <tr>
+                    <td>Jr. Software Engineer (Specilization in Cloud compution)</td>
+                    <td></td>
+                    <td>Monday-Friday</td>
+                </tr>
+                <tr>
+                    <td>.</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>.</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
 
-    <div style="padding-top: 20px;">
-        <p>I endorse the above statement<span style="padding: 30%;font-size: 15px;">(applicant's Signature with date)</span></p>
+        <div>
+            <h4>Declaration br the Applicant</h4>
+            <p>1.I understand to abide by the rules regulation of the coding School in respect of academics,
+                cocurricular
+                activities in the propectus.</p>
+            <p>2.In the event of any of indiscipline on my part, the decision of the management shall be the final and
+                binding on me</p>
+        </div>
+
+        <div style="padding-top: 20px;">
+            <p>I endorse the above statement<span style="padding: 30%;font-size: 15px;">(applicant's Signature with
+                    date)</span></p>
+        </div>
+        <div style="padding-top: 2px;">
+            <p><b>_______________________________________</b><span
+                    style="padding: 20%;font-size: 15px;"><b>_______________________________________</b></span></p>
+        </div>
+
+        <div style="padding-top: 2px;">
+            <p>place:<b>_______________________________</b><span style="padding: 20%;font-size: 15px;">(parent's
+                    Signature
+                    with date)</span></p>
+        </div>
+        <div style="padding-top: 2px;">
+            <p>Date:<b>_______________________________</b><span
+                    style="padding: 20%;font-size: 15px;"><b>_______________________________________</b></span></p>
+        </div>
     </div>
-    <div style="padding-top: 2px;">
-        <p><b>_______________________________________</b><span style="padding: 20%;font-size: 15px;"><b>_______________________________________</b></span></p>
-    </div>
-    
-    <div style="padding-top: 2px;">
-        <p>place:<b>_______________________________</b><span style="padding: 20%;font-size: 15px;">(parent's Signature with date)</span></p>
-    </div>
-    <div style="padding-top: 2px;">
-        <p>Date:<b>_______________________________</b><span style="padding: 20%;font-size: 15px;"><b>_______________________________________</b></span></p>
-    </div>
-</div>
     
 </body>
+
 </html>
